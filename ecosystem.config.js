@@ -11,12 +11,8 @@ module.exports = {
       error_file: "./logs/pm2_next13-error.log",
       out_file: "./logs/pm2_next13-out.log",
       // "log_file": ""
-      env: {
-        NODE_ENV: "production",
-      },
-      env_development: {
-        NODE_ENV: "development",
-      },
+      env: {},
+      env_development: {},
     },
     {
       name: "pm2_next13_development",
@@ -29,12 +25,8 @@ module.exports = {
       error_file: "./logs/pm2_next13-error.log",
       out_file: "./logs/pm2_next13-out.log",
       // "log_file": ""
-      env: {
-        NODE_ENV: "production",
-      },
-      env_development: {
-        NODE_ENV: "development",
-      },
+      env: {},
+      env_development: {},
     },
   ],
 };
